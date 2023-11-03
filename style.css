@@ -1,0 +1,245 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*inicio da sessao ( header )*/
+.header{
+    background-image: url(imagens/imagem\ de\ fundo\ header.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 100%;
+    height: 80vh;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.logo h1{
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    color: aliceblue;
+}
+.logo h1 span{
+    color: rgb(221, 165, 11);
+}
+.logo p{
+    font-size: 16px;
+    color: aliceblue;
+}
+.navigation ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+}
+.navigation ul li a{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'DM Serif Display', serif;
+}
+.navigation ul li a:hover{
+    text-shadow: 1px 2px 1px rgb(221, 165, 11);
+    transition: 0.3s;
+}
+/*inicio do conteudo*/
+.conteudo-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    margin-left: 17rem;
+    color: aliceblue;
+    margin-top: 10rem;
+    gap: 1rem;
+}
+.conteudo-header h1{
+    font-size: 80px;
+}
+.conteudo-header h1 span{
+    color: rgb(221, 165, 11);
+}
+.conteudo-header p{
+    font-size: 20px;
+    width: 500px;
+}
+.conteudo-header .conjunto-de-botoes-header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+button.botao-principal{
+    padding: 1rem 3rem;
+    color: black;
+    background-color: rgb(241, 202, 93);
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+button.botao-principal:hover{
+    background-color: rgb(92, 107, 121);
+    transition: 0.4s;
+}
+/*sessao sobre*/
+.sobre{
+    background-color: black;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+}
+.sobre-box{
+    padding: 3rem;
+}
+.conjunto-de-conteudos-sobre{
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.primeira-coluna-sobre,
+ .segunda-coluna-sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+.primeira-coluna-sobre h1,
+ .segunda-coluna-sobre h1{
+    font-size: 40px;
+}
+.primeira-coluna-sobre p{
+    width: 300px;
+}
+.segunda-coluna-sobre ul li span{
+    color: rgb(221, 165, 11);
+    font-weight: bold;
+}
+.terceira-coluna-sobre img{
+    width: 300px;
+    border-radius: 4px;
+}
+/*sessao de habilidades*/
+.habilidade{
+    background-image: url(imagens/segunda\ parte\ fundo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.habilidade-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    justify-content: space-around;
+    padding: 4rem;
+}
+.habilidade-box h1{
+    font-size: 40px;
+    color: aliceblue;
+    text-shadow: 2px 2px 2px black;
+}
+.conjunto-de-itens-habilidades{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    gap: 2rem;
+}
+.conjunto-de-itens-habilidades .card-item{
+    border: 4px solid rgb(221, 165, 11);
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+}
+.card-item h1{
+    color: rgb(221, 165, 11);
+    font-size: 70px;
+    font-weight: bold;
+}
+.card-item h6{
+    font-size: 18px;
+    color: aliceblue;
+    text-shadow: 2px 2px 2px black;
+}
+.card-item p{
+    color: rgb(221, 165, 11);
+    text-shadow: 2px 2px 2px black;
+}
+/*sessao de cardapio*/
+.cardapio{
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.cardapio-box{
+    background-color: rgb(241, 202, 93);
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 3rem;
+    margin: 5rem;
+    opacity: 90%;
+}
+.conjunto-de-titulos-cardapio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.conjunto-de-titulos-cardapio p{
+    color: aliceblue;
+    text-shadow: 1px 1px 1px black;
+}
+.lista-de-escolhas ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    cursor: pointer;
+}
+.lista-de-escolhas ul li:hover{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    transition: 0.3s;
+}
+.lista-de-itens ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+}
